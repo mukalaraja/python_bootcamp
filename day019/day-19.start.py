@@ -19,3 +19,12 @@ def clear():
   tim.penup()
   tim.home()
   tim.pendown()
+
+
+screen.listen()
+screen.onkey(move_forward, "w")
+screen.onkey(move_backward, "s")
+screen.onkey(move_left, "a")
+screen.onkey(move_right, "d")
+screen.onkey(clear, "c")
+screen.exitonclick()
