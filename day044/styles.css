@@ -1,0 +1,79 @@
+body {
+    background-color: #949da0;
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+    font-size: 200%;
+}
+h1 {
+    color: #393E46;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: italic;
+}
+h2 {
+    font-size: 2.5rem ;
+    color: #12151a;
+}
+h3{
+    color: #12151a;
+
+}
+p {
+    font-weight: 2;
+}
+.top-container {
+    background-color:  #87A7B3;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container {
+    margin: 50px;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.bottom-container {
+    color: #40514E;
+    font-size: 1.25rem;
+    /* background-color:  #87A7B3;  */
+}
+.hobbies {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+    line-height: 2;
+
+}
+.skills {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+    line-height: 2;
+}
+.heading {
+    width: 30%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #010700;
+    border-width: 5px;
+    width: 4%;
+}
+.bottom-cloud {
+    
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+
